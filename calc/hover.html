@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="hover.css">
+    <link rel="icon" type="image/icn" href="E:\calc\bulb.png">
+    <meta charset="utf-8">
+    <title>magic bulb</title>
+    <script type="text/javascript">
+    function hover()
+      {
+      document.getElementById('im1').src="ONbulb.jpg";
+      }
+    function nothover()
+      {
+        document.getElementById('im1').src="OFFbulb.jpg";
+      }
+  </script>
+  </head>
+  <body>
+    <p id="para">hover cursor on image to change colour</p>
+    <div class="imge">
+      <img id="im1" src="OFFbulb.jpg" alt="practice" onmouseover="hover()" onmouseleave="nothover()">
+    </div>
+    <div class="footer">
+      <footer>&copy;raptor</footer>
+    </div>
+  </body>
+</html>
